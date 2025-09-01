@@ -72,6 +72,11 @@ function resetScore() {
 In this code the special things that are used are:
 --------------------------------------------------
 
-| **Name**             | **What does it do**                                                                 |
+| **Name**                | **What does it do**                                                                                                                                                                                                    |
 |---|---|
-| `alert();`           | It creates a popup that displays whatever is in the *string* inside the *brackets*. |
+| `alert();`              | It creates a popup that displays whatever is in the ***string*** inside the ***brackets***.                                                                                                                            |
+|||
+| `let variable1 = '';`   | It creates a variable that can be changed later in the code.                                                                                                                                                           |
+| `const variable1 = '';` | It creates a variable that **CANNOT** be changed later in the code. We should used `const` to create a variable by default so we know the exact value of the variable.                                                 | 
+|||
+| `function function1();` | It creates a function that can be used later in the code. It helps to avoid repitition of the code and also optimize it. This way of creating a function has a benefit, you can use the function before it is created. |
