@@ -13,7 +13,8 @@ Steps to play Rock Paper Scissors
 > ##### Eg.
 > First it does Rock, then Paper, then Paper, then Paper, then Rock again.
 ____________________________________
-# JavaScript code:
+JavaScript code:
+================
 ```JavaScript
 alert('Welcome to Rock Paper Scissors!'); alert('The rules are:\nRock beats Scissors\nScissors beat Paper\nPaper beats Rock')
 let randomNumber = Math.random();
@@ -68,3 +69,9 @@ function resetScore() {
   document.querySelector('.js-para').innerHTML = 'Wins: 0  Losses: 0  Ties: 0';
 };
 ```
+In this code the special things that are used are:
+--------------------------------------------------
+
+| **Name**             | **What does it do**                                                                 |
+|---|---|
+| `alert();`           | It creates a popup that displays whatever is in the *string* inside the *brackets*. |
