@@ -12,7 +12,11 @@ Steps to play Rock Paper Scissors
 > ## I have seen that the computer does not do more than 3 same moves
 > ##### Eg.
 > First it does Rock, then Paper, then Paper, then Paper, then Rock again.
-____________________________________
+__________________________________________________________________________
+Don't know where to find my repositories? Here is my link:
+==========================================================
+[![Link-for-my-repositories]][https://github.com/Advik01-byte]
+__________________________________________________________
 JavaScript code:
 ================
 ```JavaScript
@@ -72,11 +76,18 @@ function resetScore() {
 In this code the special things that are used are:
 --------------------------------------------------
 
-| **Name**                | **What does it do**                                                                                                                                                                                                    |
-|-------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `alert();`              | It creates a popup that displays whatever is in the ***string*** inside the ***brackets***.                                                                                                                            |
+| **Name**                                                                  | **What does it do**                                                                                                                                                                                                                                                                                                             |
+|---------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `alert();`                                                                | It creates a popup that displays whatever is in the ***string*** inside the ***brackets***.                                                                                                                                                                                                                                     |
 |||
-| `let variable1 = '';`   | It creates a variable that can be changed later in the code.                                                                                                                                                           |
-| `const variable1 = '';` | It creates a variable that **CANNOT** be changed later in the code. We should used `const` to create a variable by default so we know the exact value of the variable.                                                 | 
 |||
-| `function function1();` | It creates a function that can be used later in the code. It helps to avoid repitition of the code and also optimize it. This way of creating a function has a benefit, you can use the function before it is created. |
+| `let variable1 = '';`                                                     | It creates a variable that can be changed later in the code.                                                                                                                                                                                                                                                                    |
+| `const variable1 = '';`                                                   | It creates a variable that **CANNOT** be changed later in the code. We should used `const` to create a variable by default so we know the exact value of the variable.                                                                                                                                                          |
+|||
+|||
+| `function function1(param);`                                              | It creates a ***function*** that can be used later in the code. It helps to avoid *repitition* of the code and also optimize it. This way of creating a function has a benefit, you can use the function before it is created.                                                                                                  |
+| `const variable1 = (param) => {};`                                        | It creates a ***function*** inside a *variable*. This is called an ***Arrow function***. This way of creating a *function* is easier to read, but you ***CANNOT*** use the function before it is created.                                                                                                                       |
+|||
+|||
+| `const variable1 = {property1: 'hello', property2: 'hi', property3: 222}; | It creates an ***Object***. An *object* has a ***property*** (eg. `property3`) and a ***value*** (eg. `'hi'`). You can call different *properties* by adding a ***dot*** (.) after a variable name and writing the *property name* after the dot (Eg. `variable1.property3`). You can also put an *object* inside an *object*. |
+| `const variable1 = [1, 2, 'hi', 'hello']`                                 | It creates an ***Array***. An *array* is like a ***list***.                                                                                                                                                                                                                                                                    |
