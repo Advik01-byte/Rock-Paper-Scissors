@@ -73,7 +73,7 @@ In this code the special things that are used are:
 --------------------------------------------------
 
 | **Name**                | **What does it do**                                                                                                                                                                                                    |
-|---|---|
+|-------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `alert();`              | It creates a popup that displays whatever is in the ***string*** inside the ***brackets***.                                                                                                                            |
 |||
 | `let variable1 = '';`   | It creates a variable that can be changed later in the code.                                                                                                                                                           |
