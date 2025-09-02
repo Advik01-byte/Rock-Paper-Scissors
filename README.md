@@ -1,9 +1,3 @@
-<h1 align="center">My Repositories<br />
-<div align="center">
-<a href="https://github.com/advik01-byte"><img src="images/JavaScript-logo.png" title="Logo" style="max-width:100%;" width="128" /></a>
-</div>
-<div align="center">
-
 Steps to play Rock Paper Scissors
 =================================
 1. Rock defeats Scissors
