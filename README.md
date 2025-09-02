@@ -1,5 +1,10 @@
+<style>
+  .JavaScript-logo {
+    margin-left: 300px;
+  }
+</style>
 <a href="https://github.com/advik01-byte">
-<img src="images/JavaScript-logo.png" style="margin-left: 500px;">
+  <img src="images/JavaScript-logo.png" class="JavaScript-logo">
 </a>
 
 Steps to play Rock Paper Scissors
