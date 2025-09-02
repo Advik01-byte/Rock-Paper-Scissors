@@ -1,3 +1,5 @@
+<img>
+
 Steps to play Rock Paper Scissors
 =================================
 1. Rock defeats Scissors
