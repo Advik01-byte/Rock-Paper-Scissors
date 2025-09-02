@@ -1,5 +1,5 @@
 <a href="https://github.com/advik01-byte">
-<img src="images/JavaScript-logo.png" style="margin-left: 100px;">
+<img src="images/JavaScript-logo.png" style="margin-left: 500px;">
 </a>
 
 Steps to play Rock Paper Scissors
@@ -17,10 +17,6 @@ Steps to play Rock Paper Scissors
 > ##### Eg.
 > First it does Rock, then Paper, then Paper, then Paper, then Rock again.
 
-Don't know where to find my repositories? Here is my link:
-==========================================================
-<a href="https://github.com/advik01-byte">My repositories</a>
-__________________________________________________________
 JavaScript code:
 ================
 ```JavaScript
