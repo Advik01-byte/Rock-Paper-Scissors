@@ -12,10 +12,10 @@ Steps to play Rock Paper Scissors
 > ## I have seen that the computer does not do more than 3 same moves
 > ##### Eg.
 > First it does Rock, then Paper, then Paper, then Paper, then Rock again.
-__________________________________________________________________________
+
 Don't know where to find my repositories? Here is my link:
 ==========================================================
-[https://github.com/Advik01-byte]
+<a href="https://github.com/advik01-byte">My repositories</a>
 __________________________________________________________
 JavaScript code:
 ================
