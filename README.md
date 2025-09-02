@@ -17,7 +17,7 @@ Steps to play Rock Paper Scissors
 
 Don't know where to find my repositories? Here is the link:
 ===========================================================
-<a href="https://github.com/advik01-byte">My Repositories</a>
+<a href="https://github.com/advik01-byte" target="_blank">My Repositories</a>
 _____________________________________________________________
 JavaScript code:
 ================
