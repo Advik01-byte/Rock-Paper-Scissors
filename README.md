@@ -1,5 +1,5 @@
 <a href="https://github.com/advik01-byte">
-  <img img src="images/JavaScript-logo.png" title="Logo" style="max-width:100%;" width="128" />
+  <img img src="images/JavaScript-logo.png" title="Logo" style="max-width:100%;" width="300" />
 </a>
 
 Steps to play Rock Paper Scissors
