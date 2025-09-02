@@ -1,5 +1,5 @@
 <link href="styles/README-styles.css">
-<img src="images/JavaScript-logo.png">
+<img src="images/JavaScript-logo.png" class="JavaScript-logo">
 
 Steps to play Rock Paper Scissors
 =================================
