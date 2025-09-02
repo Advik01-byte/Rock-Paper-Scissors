@@ -1,6 +1,8 @@
-<a href="https://github.com/advik01-byte">
-  <img src="images/JavaScript-logo.png" title="Logo" style="max-width:100%; border-radius:250px;" width="500" align="center"/>
-</a>
+<h1 align="center">My Repositories<br />
+<div align="center">
+<a href="https://github.com/dockur/windows"><img src="images/JavaScript-logo.png" title="Logo" style="max-width:100%;" width="500" /></a>
+</div>
+<div align="center">
 
 Steps to play Rock Paper Scissors
 =================================
