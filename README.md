@@ -7,7 +7,7 @@ Steps to play Rock Paper Scissors
 1. Rock defeats Scissors
 2. Paper defeats Rock
 3. Scissors defeats Paper
-> :bulb: TIP:
+<span style="background-color:yellow;">></span> :bulb: TIP:
 > ===========
 > Try to mix up your choices for moves:
 > -------------------------------------
