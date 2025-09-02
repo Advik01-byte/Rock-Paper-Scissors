@@ -15,6 +15,10 @@ Steps to play Rock Paper Scissors
 > ##### Eg.
 > First it does Rock, then Paper, then Paper, then Paper, then Rock again.
 
+Don't know where to find my repositories? Here is the link:
+===========================================================
+<a href="https://github.com/advol01-byte">My Repositories</a>
+
 JavaScript code:
 ================
 ```JavaScript
