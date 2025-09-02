@@ -1,5 +1,6 @@
-<link href="styles/README-styles.css">
-<img src="images/JavaScript-logo.png" style="margin-left: 100px; background-image: url("https://github.com/advik01-byte");">
+<a href="https://github.com/advik01-byte">
+<img src="images/JavaScript-logo.png" style="margin-left: 100px;">
+</a>
 
 Steps to play Rock Paper Scissors
 =================================
