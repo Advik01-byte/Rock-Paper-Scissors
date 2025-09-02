@@ -1,8 +1,12 @@
-||<style>
+<style class="style">
   .JavaScript-logo {
     margin-left: 300px;
   }
-</style>||
+
+  .style {
+    color: white;
+  }
+</style>
 <a href="https://github.com/advik01-byte">
   <img src="images/JavaScript-logo.png" class="JavaScript-logo">
 </a>
