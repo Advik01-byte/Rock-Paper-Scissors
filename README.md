@@ -75,18 +75,46 @@ function resetScore() {
   document.querySelector('.js-para').innerHTML = 'Wins: 0  Losses: 0  Ties: 0';
 };
 ```
-In this code the special things that are used are:
---------------------------------------------------
-
-| **Name**                                                                   | **What does it do**                                                                                                                                                                                                                                                                                                                                                                                                                               |
-|----------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `alert();`                                                                 | It creates a popup that displays whatever is in the ***string*** inside the ***brackets***.                                                                                                                                                                                                                                                                                                                                                       |
-|||
-| `let variable1 = '';`                                                      | It creates a variable that can be changed later in the code.                                                                                                                                                                                                                                                                                                                                                                                      |
-| `const variable1 = '';`                                                    | It creates a variable that **CANNOT** be changed later in the code. We should used `const` to create a variable by default so we know the exact value of the variable.                                                                                                                                                                                                                                                                            |
-|||
-| `function function1(param);`                                               | It creates a ***function*** that can be used later in the code. It helps to avoid *repitition* of the code and also optimize it. This way of creating a function has a benefit, you can use the function before it is created. Also a ***parameter*** (or an ***argument***) is used to insert a value **inside** the *function* (Eg. When you call the *function*: `function1(2);` and put the *parameter* inside the brackets if there is one). |
-| `const variable1 = (param) => {};`                                         | It creates a ***function*** inside a *variable*. This is called an ***Arrow function***. This way of creating a *function* is easier to read, but you ***CANNOT*** use the function before it is created.                                                                                                                                                                                                                                         |
-|||
-| `const variable1 = {property1: 'hello', property2: 'hi', property3: 222};` | It creates an ***Object***. An *object* has a ***property*** (eg. `property3`) and a ***value*** (eg. `'hi'`). You can call different *properties* by adding a ***dot*** (.) after a variable name and writing the *property name* after the dot (Eg. `variable1.property3`). You can also put an *object* inside an *object*.                                                                                                                    |
-| `const variable1 = [1, 2, 'hi', 'hello']`                                  | It creates an ***Array***. An *array* is like a ***list***. You need to seperate each ***value*** with a comma.                                                                                                                                                                                                                                                                                                                                   |
+HTML Code:
+==========
+```HTML
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rock Paper Scissors</title>
+    <!-- Import the CSS file -->
+    <link rel="stylesheet" href="rock-paper-scissors-finished.css">
+  </head>
+  <body>
+    <h1>
+      Rock Paper Scissors
+    </h1>
+    <!-- Import the rock image -->
+    <button onclick="
+      turn('rock', 'paper', 'scissors', 'rock');
+    " class="move-button"><img src="images/rock-emoji.png" class="image-button">
+    </button>
+    <!-- Import the paper image -->
+    <button onclick="
+      turn('paper', 'scissors', 'rock', 'paper');
+    " class="move-button"><img src="images/paper-emoji.png" class="image-button">
+    </button>
+    <!-- Import the scissors image -->
+    <button onclick="
+      turn('scissors', 'rock', 'paper', 'scissors');
+    " class="move-button"><img src="images/scissors-emoji.png" class="image-button">
+    </button>
+    <p class="js-result result"></p>
+    <p class="js-move"></p>
+    <p class="js-para score"></p>
+    <button onclick="
+      resetScore();
+    " class="orange-button reset-button">
+      Reset Score
+    </button>
+    <!-- Import the JavaScript file -->
+    <script src="rock-paper-scissors-finished.js"></script>
+  </body>
+</html>
+```
+<p style="color:green;font-size:20px;">I used functions to shorten the code a bit</p>
