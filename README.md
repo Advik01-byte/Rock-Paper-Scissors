@@ -19,7 +19,7 @@ Don't know where to find my repositories? Here is the link:
 ===========================================================
 <a href="https://github.com/advik01-byte">My Repositories</a>
 _____________________________________________________________
-JavaScript code:
+JavaScript Code:
 ================
 ```JavaScript
 alert('Welcome to Rock Paper Scissors!'); alert('The rules are:\nRock beats Scissors\nScissors beat Paper\nPaper beats Rock')
@@ -75,6 +75,13 @@ function resetScore() {
   document.querySelector('.js-para').innerHTML = 'Wins: 0  Losses: 0  Ties: 0';
 };
 ```
+I tryed to:
+-----------
+
++ Make it with comments
++ Use functions to optimize the HTML code
++ Make the JavaScript file optimized too
+_______________________________________________________________________________
 HTML Code:
 ==========
 ```HTML
@@ -117,4 +124,69 @@ HTML Code:
   </body>
 </html>
 ```
-<p style="color:green;font-size:20px;">I used functions to shorten the code a bit</p>
+I used functions to shorten the code a bit
+------------------------------------------
+
+__________________________________________
+CSS Code
+========
+
+```CSS
+body {
+  color: white;
+  background-color: black;
+}
+.image-button {
+  /* Set the height of the images to 50px */
+  height: 50px;
+}
+
+h1 {
+  color: white;
+}
+
+.orange-button {
+  background-color: orange;
+}
+
+.move-button {
+  background-color: transparent;
+  border: 3px solid white;
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  margin-right: 10px;
+  /* Set the transition for the background color */
+  transition: background-color 400ms;
+  cursor: pointer;
+}
+
+.move-button:hover {
+  background-color: white;
+}
+
+.result {
+  /* Set the font size to 25px */
+  font-size: 25px;
+  /* Make the font bold */
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.score {
+  margin-top: 50px;
+}
+
+.reset-button {
+  background-color: white;
+  padding: 8px 15px;
+  /* Remove the border of the button */
+  border: none;
+  cursor: pointer;
+  /* Set the font size to 15px */
+  font-size: 15px;
+  color: black;
+}
+```
+Made it with comments so its readable
+-------------------------------------
